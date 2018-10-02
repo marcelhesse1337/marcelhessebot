@@ -68,7 +68,7 @@ con.connect((HOST, PORT))
 send_pass(PASS)
 send_nick(NICK)
 stream_count = 0
-for number in range(1, 500):
+for number in range(1, 250):
 	response = requests.get('https://api.twitch.tv/kraken/streams?client_id=6arow4uftfxfu50giby5wx15l0r1x2&stream_type=live&offset='+str(number)+"00")
 	parsed_json = json.loads(response.text)
 	for j in parsed_json['streams']:
