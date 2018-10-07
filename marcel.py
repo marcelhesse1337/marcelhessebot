@@ -10,7 +10,7 @@ HOST = "irc.twitch.tv"                          # Hostname of the IRC-Server in 
 PORT = 6667                                     # Default IRC-Port
 CHAN = "#command_and_control"                               # Channelname = #{Nickname}
 NICK = "command_and_control"                         # Nickname = Twitch username
-PASS = "oauth:6iu81vbxbsogvqn3dd0x0dgy48wlcn"   # www.twitchapps.com/tmi/ will help to retrieve the required authkey
+PASS = ""   # www.twitchapps.com/tmi/ will help to retrieve the required authkey
 # --------------------------------------------- End Settings -------------------------------------------------------
 
 
