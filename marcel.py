@@ -8,9 +8,9 @@ import argparse
 # --------------------------------------------- Start Settings ----------------------------------------------------
 HOST = "irc.twitch.tv"                          # Hostname of the IRC-Server in this case twitch's
 PORT = 6667                                     # Default IRC-Port
-CHAN = "#Jokela_High_School"                               # Channelname = #{Nickname}
-NICK = "Jokela_High_School"                         # Nickname = Twitch username
-PASS = "oauth:lw8tzg9gaullniaoqxi5ldam7hdg9v"   # www.twitchapps.com/tmi/ will help to retrieve the required authkey
+CHAN = "#lisaprincess_x3"                               # Channelname = #{Nickname}
+NICK = "lisaprincess_x3"                         # Nickname = Twitch username
+PASS = "oauth:hkr3vahawyaw1y9m6nlnzzkoewztvi"   # www.twitchapps.com/tmi/ will help to retrieve the required authkey
 # --------------------------------------------- End Settings -------------------------------------------------------
 
 
